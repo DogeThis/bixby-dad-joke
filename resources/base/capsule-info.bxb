@@ -1,0 +1,17 @@
+description {
+  displayName (Dad Jokes)
+  companyName (Example)
+  iconUrl (/icons/smile.svg)
+  description ("icanhazdadjoke.com is the largest selection of dad jokes on the internet.")
+  websiteUrl (https://icanhazdadjoke.com/)
+  dispatch-name (dad jokes)
+  search-keywords {
+    keyword (dad)
+    keyword (joke)
+    keyword (funny)
+    keyword (pun)
+  }
+  dispatch-aliases {
+    alias (dad joke)
+  }
+}
