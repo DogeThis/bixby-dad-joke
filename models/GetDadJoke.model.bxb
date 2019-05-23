@@ -1,0 +1,7 @@
+action (GetDadJoke) {
+  type (Search)
+  description (Gets a dad joke.)
+  collect {
+  }
+  output (DadJoke)
+}

@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetDadJoke) {
+      accepted-inputs ()
+      local-endpoint (GetDadJoke.js)
+    }
+  }
+}

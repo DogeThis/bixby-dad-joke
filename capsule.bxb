@@ -1,0 +1,14 @@
+capsule {
+  id (example.dadJoke)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    no-fallback-to-result-collections
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+  }
+}

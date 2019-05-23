@@ -1,0 +1,11 @@
+result-view {
+  match: DadJoke
+  render {
+    nothing
+  }
+  conversation-drivers {
+    conversation-driver {
+      template ("One more")
+    }
+  }
+}

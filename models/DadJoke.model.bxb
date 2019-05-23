@@ -1,0 +1,13 @@
+structure (DadJoke) {
+  property (id) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  
+  property (joke) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

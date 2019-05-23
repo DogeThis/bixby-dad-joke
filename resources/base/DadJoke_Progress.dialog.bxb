@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: DadJoke
+  template("Getting a dad joke...")
+}
