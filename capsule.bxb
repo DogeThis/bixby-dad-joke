@@ -1,5 +1,5 @@
 capsule {
-  id (example.dadJoke)
+  id (example.dadJokes)
   version (1.0.0)
   format (3)
   targets {
