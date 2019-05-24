@@ -1,14 +1,17 @@
 capsule {
   id (example.dadJokes)
-  version (1.0.0)
+  version (1.0.1)
   format (3)
   targets {
-    target (bixby-mobile-en-US)
+    target (bixby-mobile-en-US) 
   }
   runtime-flags {
     support-halt-effect-in-computed-inputs
     no-fallback-to-result-collections
     concepts-inherit-super-type-features
     modern-prompt-rejection
+  }
+  store-sections {
+    section (GamesAndFun)
   }
 }
